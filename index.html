@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <!-- presentacion -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f1e7" />
+  <meta name="description" content="Mi duende: personajes tejidos a crochet, stock disponible, trabajos y ferias." />
+  <title>Mi duende — personajes tejidos a crochet</title>
+  <link rel="stylesheet" href="mi_duende.css" /> <!-- diseño y colores-->
+</head>
+<body>
+  <!-- cabecera -->
+  <div class="announcement">Hecho a mano, puntada a puntada · ¡Nos encontramos en las ferias!</div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#inicio" aria-label="Mi duende, inicio">
+        <span class="brand-mark">🍄</span><span class="brand-name">Mi duende</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#stock">Personajes</a><a href="#trabajos">Nuestros trabajos</a><a href="#ferias">Ferias</a><a href="#nosotros">Nosotros</a>
+        <a class="nav-cta" href="#contacto">Contactanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Un pequeño mundo tejido a mano</div>
+          <h1>Personajes con<br><em>historias tejidas</em></h1>
+          <p>En Mi duende tejemos pequeños compañeros, uno por uno, con paciencia, cariño y un poquito de magia. ¡Conocé nuestros personajes y encontranos en las próximas ferias!</p>
+          <div class="actions"><a class="btn btn-primary" href="#stock">Ver stock disponible <span>↓</span></a><a class="btn btn-outline" href="#ferias">Próximas ferias</a></div>
+        </div>
+        <div class="hero-art" aria-label="Foto destacada de un personaje tejido">
+          <div class="sun"></div>
+          <div class="hero-photo">
+            <!-- Reemplazá esta imagen de ejemplo por una foto propia: <img src="imagenes/personaje-portada.jpg" alt="Personaje tejido de Mi duende"> -->
+            <div class="photo-placeholder"><span class="emoji">🧶</span>¡Acá va una foto<br>de uno de nuestros duendes!</div>
+          </div>
+          <div class="floating-note">Pequeños detalles,<strong>grandes historias ✨</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stock-section" id="stock">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Nuestros personajes</div><h2>El rincón del stock</h2></div>
+          <p class="section-intro">Cada personaje es único. Acá podés ver cuáles están disponibles, reservados o ya encontraron un hogar.</p>
+        </div>
+        <div class="filters" aria-label="Filtrar personajes">
+          <button class="filter active" data-filter="todos">Todos</button><button class="filter" data-filter="disponible">Disponibles</button><button class="filter" data-filter="reservado">Reservados</button><button class="filter" data-filter="vendido">Ya encontraron hogar</button>
+        </div>
+        <div class="products" id="products">
+          <!-- EJEMPLOS: duplicá una tarjeta para agregar personajes y editá nombre, categoría, estado, emoji y foto. -->
+          <article class="product" data-status="disponible" data-category="duendes">
+            <div class="product-image"><span class="status">Disponible</span><span class="product-emoji">🍄</span><!-- <img src="imagenes/duende-bosque.jpg" alt="Duende del bosque tejido a crochet"> --></div>
+            <div class="product-info"><h3>Duende del bosque</h3><p>Amigo de los rincones verdes.</p><div class="availability"><span class="dot"></span>Disponible</div></div>
+          </article>
+          <article class="product" data-status="disponible" data-category="animales">
+            <div class="product-image"><span class="status">Disponible</span><span class="product-emoji">🐸</span></div>
+            <div class="product-info"><h3>Ranita viajera</h3><p>Lista para nuevas aventuras.</p><div class="availability"><span class="dot"></span>Disponible</div></div>
+          </article>
+          <article class="product" data-status="reservado" data-category="fantasia">
+            <div class="product-image"><span class="status reserved">Reservado</span><span class="product-emoji">🧚</span></div>
+            <div class="product-info"><h3>Hada de jardín</h3><p>Un toque de magia en miniatura.</p><div class="availability"><span class="dot" style="background:#d5a45f"></span>Reservado</div></div>
+          </article>
+          <article class="product" data-status="vendido" data-category="animales">
+            <div class="product-image"><span class="status sold">Ya tiene hogar</span><span class="product-emoji">🐻</span></div>
+            <div class="product-info"><h3>Osito de miel</h3><p>Tejido con mucho cariño.</p><div class="availability" style="color:#786b5e"><span class="dot" style="background:#aaa"></span>Ya encontró hogar</div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="trabajos">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">Hechos con nuestras manos</div><h2>Un poquito de nuestro mundo</h2></div><p class="section-intro">Cada tejido tiene su personalidad. Compartimos algunos de los trabajos que fueron saliendo de nuestro taller.</p></div>
+        <div class="gallery">
+          <div class="gallery-item"><span><b>🧵</b>Reemplazá por una foto de tus trabajos</span></div>
+          <div class="gallery-item"><span><b>🌷</b>Detalles y colores</span></div>
+          <div class="gallery-item"><span><b>🧸</b>Personajes terminados</span></div>
+          <div class="gallery-item"><span><b>🪡</b>El proceso de tejido</span></div>
+          <div class="gallery-item"><span><b>✨</b>Pequeñas criaturas</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section events-section" id="ferias">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">¡Salimos de paseo!</div><h2>Nos vemos en la feria</h2></div><p class="section-intro">Nos encanta encontrarnos en persona, mostrar lo que hacemos y compartir un ratito con ustedes.</p></div>
+        <div class="events-grid">
+          <!-- EDITÁ fecha, nombre, lugar y descripción. Eliminá o duplicá eventos según necesites. -->
+          <article class="event"><div class="event-date"><strong>DD</strong>MES</div><div><h3>Nombre de la feria</h3><p>📍 Lugar de la feria, localidad</p><p>Una breve descripción para contar qué vamos a llevar.</p><span class="event-tag">Próxima feria</span></div></article>
+          <article class="event"><div class="event-date"><strong>DD</strong>MES</div><div><h3>Festival / encuentro</h3><p>📍 Lugar, localidad</p><p>¡Pasá a saludarnos y conocer a nuestros personajes!</p><span class="event-tag">Próximo encuentro</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="nosotros">
+      <div class="wrap about-grid">
+        <div class="about-art"><div><span class="big">🧶🌿</span><p>El pequeño taller detrás de Mi duende</p></div></div>
+        <div class="about-copy"><div class="eyebrow">¿Quiénes somos?</div><h2>Un emprendimiento tejido con cariño.</h2><p>Somos quienes están detrás de Mi duende: un pequeño emprendimiento de personajes tejidos a crochet. Nos gusta crear piezas con identidad propia, cuidar cada detalle y poner un poquito de nuestra imaginación en cada puntada.</p><p>Esta página es una ventana a nuestro mundo: nuestros trabajos, los personajes que están disponibles y los lugares donde nos pueden encontrar.</p><div class="values"><span>Hecho a mano</span><span>Creatividad</span><span>Hecho con amor</span></div></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="wrap contact-grid">
+        <div><div class="eyebrow">¡Nos encantaría conocerte!</div><h2>¿Nos encontramos en la próxima feria?</h2><p>Seguinos en redes para ver nuevos personajes, enterarte de las fechas y descubrir dónde estaremos.</p></div>
+        <div class="actions"><a class="btn btn-primary" href="https://www.instagram.com/miduende_art/" target="_blank" rel="noopener">Instagram ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-row"><span>© <span id="year"></span> Mi duende · Personajes tejidos a crochet</span><span>Hecho a mano, puntada a puntada ♡</span></div></footer>
+
+  <script> 
+    // Filtro interactivo del stock <!-- Javascript -->
+    const filterButtons = document.querySelectorAll('.filter');
+    const productCards = document.querySelectorAll('.product');
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(item => item.classList.remove('active'));
+        button.classList.add('active');
+        const filter = button.dataset.filter;
+        productCards.forEach(card => {
+          card.hidden = filter !== 'todos' && card.dataset.status !== filter;
+        });
+      });
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
