@@ -25,7 +25,6 @@
     .brand { display: flex; align-items: center; gap: 10px; }
     .brand-logo {  width: 45px; height: 45px;  object-fit: contain; }
     .brand-mark { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: var(--pink); font-size: 23px; }
-    .brand-name { font-size: 26px; font-weight: bold; letter-spacing: -.04em; }
     nav { display: flex; align-items: center; gap: 24px; font: 13px Arial, sans-serif; }
     nav a { text-decoration: none; color: var(--muted); }
     nav a:hover { color: var(--green-dark); }
