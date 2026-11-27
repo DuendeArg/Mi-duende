@@ -21,7 +21,7 @@
     .wrap { width: min(1120px, calc(100% - 20px)); margin: auto; }
     .announcement { background: var(--green-dark); color: #fffaf3; text-align: center; padding: 9px 16px; font: 12px/1.4 Arial, sans-serif; letter-spacing: .08em; }
     header { position: sticky; top: 0; z-index: 10; background: rgba(248,241,231,.94); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(232,220,205,.8); }
-    .nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px ; transform: translateX(-15px); }
+    .nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px ; transform: translateX(-50px); }
     .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
     .brand-logo {  width: 45px; height: 45px;  object-fit: contain; }
     .brand-mark { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; background: var(--pink); font-size: 23px; }
